@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Produto</title>
+<link rel="stylesheet" type="text/css" href="cadstropro.css">
+<style>
+     #ff{
+    transform: translate(70%);
+    height: 800px;
+    width: 800px;
+    border-radius: 30px;
+    position: absolute;
+    top: 10%;
+    background-color: #4E2872;
+    opacity: 50%;
+    color:white;
+
+    }
+    #dd{
+        border-radius: 30px; 
+        width: 270px;
+        height: 120px;
+        position: absolute;
+        top: 75%;
+        transform: translate(225%);
+        border-color: black;
+    }
+    #cc{
+        transform: translate(1100%);
+        border-radius: 30px;
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 83%;
+        border: hidden;
+        color: white;
+        background-color: #3FA613;
+        opacity: 100%;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #pp1  {
+        transform: translate(1050%);
+        position: absolute;
+        top: 20%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+
+    }
+    #cd{
+        transform: translate(135%);
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        top: 10%;
+        font-size: 250%;
+
+    }
+    #ii{
+        transform: translate(218%);
+        border-radius: 30px;
+        border: hidden;
+        width: 280px;
+        height: 35px;
+        background-color: #8C52FF;
+        position: absolute;
+        top: 25%;
+        opacity: 70%;
+    }
+    #ii4{
+        
+        transform: translate(900%);
+       position: absolute;
+       top: 250px;
+       display: none;
+       
+    }
+    #label{
+        border-radius: 30px;
+        background-color: aliceblue;
+       position: absolute;
+       left: 56%;
+       top: 245px;
+       width: 250px;
+       height: 35px;
+       text-align: center;
+       font-size: 22px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+
+    #label1{
+        border-radius: 30px;
+        background-color: aliceblue;
+       position: absolute;
+       left: 56%;
+       top: 320px;
+       width: 250px;
+       height: 35px;
+       text-align: center;
+       font-size: 22px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+    }
+
+   
+    #ii5{
+        
+        transform: translate(900%);
+       position: absolute;
+       top: 250px;
+       display: none;
+    }
+    #pp2{
+        transform: translate(850%);
+        position: absolute;
+        top: 30%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #ii1{
+        transform: translate(218%);
+        border-radius: 30px;
+        border: hidden;
+        width: 280px;
+        height: 35px;
+        background-color: #8C52FF;
+        position: absolute;
+        top: 35%;
+        opacity: 70%;
+    }
+    #pp3{
+        transform: translate(1020%);
+        position: absolute;
+        top: 40%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #ii2{
+        transform: translate(218%);
+        border-radius: 30px;
+        border: hidden;
+        width: 280px;
+        height: 35px;
+        background-color: #8C52FF;
+        position: absolute;
+        top: 45%;
+        opacity: 70%;
+    }
+    #pp5{
+        transform: translate(1085%);
+        position: absolute;
+        top: 50%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #ii3{
+        transform: translate(289.5%);
+        border-radius: 30px;
+        border: hidden;
+        width: 210px;
+        height: 35px;
+        background-color: #8C52FF;
+        position: absolute;
+        top: 55%;
+        opacity: 70%;
+    }
+    #pp4{
+        transform: translate(630%);
+        position: absolute;
+        top: 60%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #ii6{
+        border-radius: 30px;
+        border-color: black;
+        background-color: white;
+        width: 100px;
+        height: 30px;
+        position: absolute;
+       top: 625px;
+       transform: translate(625%);
+       font-size: 15px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       text-align: center;
+    }
+    #pp8{
+        transform: translate(635%);
+        position: absolute;
+        top: 69%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #pp6{
+        transform: translate(435%);
+        position: absolute;
+        top: 20%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+    }
+    #pp7{
+        transform: translate(415%);
+        position: absolute;
+        top: 29%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+    }
+    #im{
+        width: 80px;
+        height: 80px;
+        transform: translate(1330%);
+        position: absolute;
+        top: 105px;
+    }
+    #exit{
+        border-radius: 11px;
+        width: 60px;
+        height: 35px;
+        position: absolute;
+        border: hidden;
+        color: white;
+        background-color: #8C52FF;
+        opacity: 95%;
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        top: 0px;
+        text-decoration: none;
+    }
+
+  
+    
+   
+</style>
+</head>
+<body background="fundoo.png">
+
+    <form action="" method="post" enctype = "multipart/form-data">
+    
+        <fieldset id="ff">
+            
+            
+          
+        </fieldset>
+        <h1 id="cd">CADASTRE SEU PRODUTO</h1>
+        <h3 id="pp1">Nome</h3>
+        <input id="ii" type="text" name="nome_produto">
+        <h3 id="pp2">Modelo</h3>
+        <input id="ii1" type="text" name="modelo">
+        <h3 id="pp3">Marca</h3>
+        <input id="ii2" type="text" name="marca">
+        <h3 id="pp4">Categoria</h3>
+        <select id="ii6" type="text" name="categoria">
+          <option value="Monitor">Monitor</option>    
+          <option value="computador">computador</option>
+          <option value="notebook">notebook</option>
+        </select>
+        <h3 id="pp5">Preço</h3>
+        <input id="ii3" type="text" name="preco">
+     <h3 id="pp6">insira a foto representativa</h3>
+     <label id="label" for="ii4">inserir imagem</label>
+        <input id="ii4" type="file" name="arquivo">
+        <h3 id="pp7">insira outras fotos(opcional)</h3>
+     <label id="label1" for="ii5">inserir imagem</label>
+        <input id="ii5" type="file" name="arquivos">
+        <h3 id="pp8">descrição</h3>
+        <input  id="dd"  type="text" name="descricao">
+        
+        <input id="cc" type="submit" value="Cadastrar">
+    </form>
+    <img id="im" src="produtos.png">
+    <p>
+        <a id="exit" href="config_conta.php">🠔</a>
+    </p>
+
+</body>
+</html>
